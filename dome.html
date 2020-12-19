@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器</title>
+    <style>
+        #div0{
+            background-image: url(./img/QQ图片20201215201821.jpg);
+            height: 80px;
+            font-size: 25px;
+            color: rosybrown;
+        }
+        #div1{
+            border: pink 2px solid;
+            height: 100px;
+            margin-top: 30px;
+            background-image: url(./img/QQ图片20201215201821.jpg);
+        }
+        #div2{
+            width: 100px;
+            height: 50px;
+            margin-top: 20px;
+            margin-left: 50px;
+            float: left;
+        }
+        #div3,#div4,#div5,#div6{
+            width: 100px;
+            height: 50px;
+            margin-top: 25px;
+            margin-left: 200px;
+            float: left;
+        }
+        #div7{
+            height: 30px;
+            width: 400px;
+            float:right
+        }
+        #div8,#div9,#div10,#div11{
+            margin-left: 300px;
+        }
+        #btn0,#btn1,#btn2,#btn3,#btn4{
+            width: 130px;
+            height: 50px;
+            font-size: 20px;
+            background-image: url(./img/QQ图片20201215201821.jpg);
+        }
+        #btn5{
+            font-size: 10px;
+            width: 80px;
+            height: 50px;
+            margin-top: 850px;
+            float: right;
+            color: purple;
+        }
+        #btn6,#btn8,#btn10,#btn12{
+            font-size: 10px;
+            width: 80px;
+            height: 50px;
+            margin-top: 350px;
+            float: right;
+            color: purple;
+        }
+        #top{
+            font-size: 20px;
+            color: purple;
+        }
+        body,html{
+			height:900px;
+		}
+		.up {
+			display: none; width: 80px; height: 40px; background: pink; 
+			position: fixed; right: 10px; bottom: 20px;
+		}
+        #div12{
+            height: 900px;
+            width: 920px;
+            float: left;
+            background-image: url(./img/1608360505905.jpeg);
+            font-size: 30px;
+        }
+        #div13{
+            height: 900px;
+            width: 920px;
+            float: left;
+            background-image: url(./img/1608361593124.jpeg);
+            font-size: 35px;
+        }
+        #div14{
+            background-color: sandybrown;
+            font-size: 20px;
+        }
+        #div15,#div16,#div17{
+            font-size: 30px;
+        }
+        #btn7,#btn9,#btn11{
+            font-size: 30px;
+            color: thistle;
+        }
+        .big{
+            width:2000px;
+            height:2000px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="big">
+        <div id="class0">
+            <div id="div0">
+                <p>每天，我们面临着众多的选择，大到选工作、选伴侣，小到午餐要吃什么、衣服要买哪件。按理说，有选择总比没选择好，然而，对有选择困难症的人来说，选择多了却不是什么好事。选择越多，他们越纠结，大事小事都很难做决定。为什么会出现选择困难症？选择困难时又该如何克服呢？
+                </p>
+            </div>
+            <div id="div1">
+                <div id="div2">
+                    <button id="btn0">出现的原因</button>
+                </div>
+                <div id="div3">
+                    <button id="btn1">解决办法</button>
+                </div>
+                <div id="div4">
+                    <button id="btn2">生活专栏</button>
+                </div>
+                <div id="div5">
+                    <button id="btn3">娱乐专栏</button>
+                </div>
+                <div id="div6">
+                    <button id="btn4">学习专栏</button>
+                </div>
+               
+            </div>
+            <div id="div8">
+                <img src="./img/QQ图片20201215214006.jpg" width="750px" height="800px">
+            </div>
+            <div id="div9">
+                <img src="./img/QQ图片20201215214038.jpg" width="750px" height="800px">
+            </div>
+            <div id="div10">
+                <img src="./img/QQ图片20201215214044.jpg" width="750px" height="800px">
+            </div>
+            <div id="div11">
+                <img src="./img/QQ图片20201215214050.jpg" width="750px" height="800px">
+            </div>
+            <div id="top" class="up" onclick="goTop()" >返回顶部</div>
+        </div>
+        <div id="class1">
+            <div id="div12">
+                <p>选择困难症又称为选择恐惧症，此类患者常常缺乏自信，优柔寡断，主要表现为当患者面对大量或重要或毫无实质意义的问题时，总是精神紧张、难以选择、拖延甚至放弃选择，认为当下任何选择都会对未来产生重大影响。选择恐惧症的病因往往与患者的性格以及个人心理因素有关，例如患者心智不成熟、追求完美主义等。</p>
+            </div>
+            <div id="div13">
+                <img src="./img/1608361593124.jpeg">
+                <button id="btn5">返回首页</button>
+            </div>
+        </div>
+        <div id="class2">
+            <div id="div14">
+                <p>选择困难面临的处境无外乎两种：</p>
+                <p>一是要割舍，也就是势必会失去没有被选择的东西，这种失去令选择者感到痛苦，没有人会希望失去。而选择失去哪样东西的控制权又在于自己，这种控制权又使选择者面临负全责的压力，使其本能的想逃离这种压力。</p>
+                <p>二是结果不可控，不知道自己选择的是否是最优的，人人都希望完美都渴求最好，也有贪婪的天性，未知的可能性会使选择者陷入后悔的情绪，特别是选择的结果不理想时，“早知道当初选那个就好了，我真蠢”，以往这种不愉快的记忆，会使选择者在选择时恐惧再次遭遇这种情绪。</p>
+                <p>应对这种情况，可以有两种策略。</p>
+                <p>一是将选择过程变成分析过程。有些选择者在选择时没有进行思考，“我该怎么选我该怎么选”，他迫切希望能有个选择的结果，又希望选择结果是好的，但他没有去想到底怎样的结果才是令自己满意的。比如我要去超市买洗衣粉，这个目标很明确，但不具体，买怎样的洗衣粉呢？这时候可以先罗列需求再列优先级，如果要买最便宜的，总价除克数算出每种洗衣粉每克多少钱进行选择，就优先满足了自己最想满足的需求，减少后悔可能。其次，如果选择太多，也可以先用排除法排除一些选择。</p>
+                <p>二是将选择过程变成随机过程。意思是像抽奖一样，无过度思考而单凭直觉，结果好就是好运，这样是降低了对结果的期待。点餐的时候随便选，好吃就如中奖，不好吃就如不中奖。如果吃到不好吃的，首先是意料中，其次下次吃到好吃的同类食物，对比度更大，满足感更大。</p>
+                <p>那为什么会浪费时间？</p>
+                <p>如果高考选志愿选个几天，很少会有人把这当浪费，因为结果将对人生有很重大影响，必须慎重。如果吃个饭吃半小时，但选择吃什么就选了二十分钟，估计就觉得时间浪费了。因为时间成本太贵，这种损失的感觉会加重以后选择的烦躁感和逃避感。其次事前没有进行时间管理，淘宝买衣服，那要逛多久呢？这次一定要买一件衣服作为结果吗？逛着逛着，可能心里想着，再逛逛也许会出现令我满意的衣服呢，正是这份希望让时间不知不觉就过去了。所以选择之前有没有规划过要用多少时间做选择呢。如果这段时间内没有得出结果，有没有plan B呢。</p>
+                <button id="btn6">返回首页</button>      
+            </div>
+        </div>
+        <div id="class3">
+            <div id="div15">
+                <p>吃饭</p>
+                <p>第一食堂     第二食堂     第三食堂     第四食堂     第五食堂</p>
+                <button id="btn7">随机选择</button>
+                <button id="btn8">返回首页</button>
+            </div>
+        </div>
+        <div id="class4">
+            <div id="div16">
+                <p>听音乐     打游戏     阅读书籍     休息     运动</p>
+                <button id="btn9">随机选择</button>
+                <button id="btn10">返回首页</button>
+            </div>
+        </div>
+        <div id="class5">
+            <div id="div17">
+                <p>高等数学     计算机组成原理     毛泽东概论     离散数学     Web     面向对象     数据结构   英语读写     测试</p>
+                <button id="btn11">随机选择</button>
+                <button id="btn12">返回首页</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function goTop(){
+        var odiv = document.getElementById("top");
+		document.documentElement.scrollTop = document.body.scrollTop = 0;
+	}
+	window.onscroll = function(){
+		var odiv = document.getElementById("top");
+		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+		if(scrollTop > 2000){	
+			odiv.style.display = "block";
+		} else {
+			odiv.style.display = "none"
+		}
+    }
+    var btn0 = document.getElementById("btn0");
+    var btn1 = document.getElementById("btn1");
+    var btn2 = document.getElementById("btn2");
+    var btn3 = document.getElementById("btn3");
+    var btn4 = document.getElementById("btn4");
+    var btn5 = document.getElementById("btn5");
+    var btn6 = document.getElementById("btn6");
+    var btn7 = document.getElementById("btn7");
+    var btn8 = document.getElementById("btn8");
+    var btn9 = document.getElementById("btn9");
+    var btn10 = document.getElementById("btn10");
+    var btn11 = document.getElementById("btn11");
+    var btn12 = document.getElementById("btn12");
+    var class0 = document.getElementById("class0");
+    var class1 = document.getElementById("class1");
+    var class2 = document.getElementById("class2");
+    var class3 = document.getElementById("class3");
+    var class4 = document.getElementById("class4");
+    var class5 = document.getElementById("class5");
+    class1.style.display = "none";
+    btn0.onclick = function(){
+        class0.style.display = "none";
+        class1.style.display = "block";
+    }
+    btn5.onclick = function(){
+        class1.style.display = "none";
+        class0.style.display = "block";
+    }
+    class2.style.display = "none";
+    btn1.onclick = function(){
+        class0.style.display = "none";
+        class2.style.display = "block";
+    }
+    btn6.onclick = function(){
+        class2.style.display = "none";
+        class0.style.display = "block";
+    }
+    class3.style.display = "none";
+    btn2.onclick = function(){
+        class0.style.display = "none";
+        class3.style.display = "block";
+        btn7.onclick = function(){
+            function num(){
+                var choose = ["第一食堂","第二食堂","第三食堂","第四食堂","第五食堂"];
+                i=Math.floor(Math.random()*choose.length);
+                alert(i);
+            }
+            num();
+        }
+    }
+    btn8.onclick = function(){
+        class3.style.display = "none";
+        class0.style.display = "block";
+    }
+    class4.style.display = "none";
+    btn3.onclick = function(){
+        class0.style.display = "none";
+        class4.style.display = "block";
+        btn9.onclick = function(){
+            function num(){
+                var chose = ["听音乐","打游戏","阅读书籍","休息","运动"];
+                j=Math.floor(Math.random()*chose.length);
+                alert(j);
+            }
+            num();
+        }
+    }
+    btn10.onclick = function(){
+        class4.style.display = "none";
+        class0.style.display = "block";
+    }
+    class5.style.display = "none";
+    btn4.onclick = function(){
+        class0.style.display = "none";
+        class5.style.display = "block";
+        btn11.onclick = function(){
+            function num(){
+                var chse = ["高等数学","计算机组成原理","毛泽东概论","离散数学","Web","面向对象","数据结构","英语读写","测试"];
+                k=Math.floor(Math.random()*chse.length);
+                alert(k);
+            }
+            num();
+        }
+    }
+    btn12.onclick = function(){
+        class5.style.display = "none";
+        class0.style.display = "block";
+    }
+</script>
+</html>
